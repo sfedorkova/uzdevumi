@@ -1,0 +1,7 @@
+PVN = float(input("Ievadi PVN: "))
+sulasCena = float(input("Sulas cena: "))
+sulasPVN = sulasCena * PVN
+sieraCena = float(input("Siera cena: "))
+sieraPVN = sieraCena * PVN
+print(sulasCena + sulasPVN + sieraCena + sieraPVN)
+#Programmā bija 2 sulasPVN, bet jābūt 1 sulasPVN un 1 sieraPVN
